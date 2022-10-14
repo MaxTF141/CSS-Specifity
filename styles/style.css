@@ -3,3 +3,34 @@
     padding: 0;
     box-sizing:border-box;
 }
+
+
+#heading {
+    color: blueviolet;
+}
+
+.example {
+    color: bisque;
+}
+
+ul li {
+    color: red;
+}
+h2 {
+    background-color: aqua;
+}
+main {
+    background-color: chocolate;
+    margin: 10px 30%;
+}
+
+p {
+    background-color: lightgrey;
+}
+
+ul {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+aside  {
+    margin: 10px 20%;
+}
