@@ -10,7 +10,7 @@
 }
 
 .example {
-    color: bisque;
+    color: navy;
 }
 
 ul li {
@@ -18,19 +18,24 @@ ul li {
 }
 h2 {
     background-color: aqua;
+    font-size: x-large;
 }
 main {
-    background-color: chocolate;
-    margin: 10px 30%;
+    margin: 20px 30%;
+    border: solid 5px lightgrey;
+    padding: 15px;
 }
 
 p {
-    background-color: lightgrey;
+    background-color:whitesmoke;
+    font-size: x-large;
 }
 
 ul {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 aside  {
-    margin: 10px 20%;
+    margin: 20px 30%;
+    border: solid 5px lightgrey;
+    padding: 15px;
 }

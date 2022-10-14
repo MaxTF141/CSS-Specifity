@@ -6,27 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
     <title>Revision</title>
-</head>
+`</head>
 <body>
     <main>
         <h2>CSS Specifity</h2>
         <p>It's a method for resolving conflicts when selectors with different style rules applied to the same element. Specifity only applies when when multiplied declarations target the same element.</p>
 
         <h2>How does specifity hierarchy work?</h2>
-        <p>Specifity involves creating scores or compare selectors. It uses a four-part specifity hierarchy to determine a selector's specifity score.</p>
+        <p class="example">Specifity involves creating scores or compare selectors. It uses a four-part specifity hierarchy to determine a selector's specifity score.</p>
     </main>
 
 
     <aside>
-    <h2>It goes as follows:</h2>
-    <ul style="font-family:'Courier New', Courier, monospace;">
-            <li id="heading">Inline style selector selectors are style rules defined in a HTML document using the < style > attribute. These selectors are given a score of 1000.</li>
-            <li>ID selector selectors have a specifity score of 100.</li>
-            <li>Class, Pseudo-class, attribute selectors have a score of 10.</li>
-            <li>Element and pseudo-element selectors have a specifity score of 1.</li>
-    </ul>
+        <h2>It goes as follows:</h2>
+        <ul style="font-family:'Courier New', Courier, monospace;">
+                <li id="heading">Inline style selector selectors are style rules defined in a HTML document using the style attribute. These selectors are given a score of 1000.</li>
+                <li>ID selector selectors have a specifity score of 100.</li>
+                
+                <li>Class, Pseudo-class, attribute selectors have a score of 10.</li>
+                <li>Element and pseudo-element selectors have a specifity score of 1.</li>
+        </ul>
+        <P>NB! The *Universal selector have a specifity score of 0. It's style rules will be overwritten whenever there is conflicting selectors.  </P>
     </aside>
-    <P>NB! The *Universal selector have a specifity score of 0. It's style rules will be overwritten whenever there is conflicting selectors.  </P>
     
 </body>
 </html>
